@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <title>Guess Number</title>
+
+</head>
+<body>
+    <div class="main">
+        <div class="wrapper">
+            <div class="hanging-monkey"><img src="photos/hanging monkey.png" alt="monkey"></div>
+            <div class="main-content">
+                <div class="top-values">
+                    <div class="high-score-text">HIGHSCORE : <span class="high-score"></span></div>
+                    <div class="chances-text">CHANCES : <span class="chances"></span></div>
+                </div>
+                <div class="game-title">GUESS THE HIDDEN NUMBER</div>
+                <div class="number-range">(Between 1-25)</Between></div>
+                <div class="hidden-number">HIDDEN NUMBER</div>
+                <div class="massage">GUESS THE HIDDEN NUMBER ...</div>
+                <div><input type="number" class="guess" placeholder="input"></div>
+                <div><button class="check check-quesing">CHECK</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="win">
+        <div class="content">
+            <div class="mark-text">MARKS: <span class="win-mark mark"></span></div>
+            <div class="win-monkey"><img src="photos/happyMonkey.png" alt="happyMonkey"></div>
+            <div class="win-massage">YOU WON THE GAME</div>
+            <div><button class="check win-playagain">PLAY AGAIN</button></div>
+        </div>
+    </div>
+    <div class="new-record">
+        <div class="content">
+            <div class="mark-text">MARKS: <span class="new-record-marks mark"></span></div>
+            <div class="win-monkey"><img src="photos/kingMonkey.png" alt="happyMonkey"></div>
+            <div class="win-massage">NEW RECORD</div>
+            <div><button class="check record-playagain">PLAY AGAIN</button></div>
+        </div>
+    </div>
+    <div class="lost">
+        <div class="content">
+            <div class="win-monkey"><img src="photos/sadMonkey.png" alt="happyMonkey"></div>
+            <div class="win-massage">YOU LOST THE GAME</div>
+            <div><button class="check lost-tryagain">TRY AGAIN</button></div>
+        </div>
+    </div>
+
+    <script src="scrip.js"></script>
+
+</body>
+</html>
